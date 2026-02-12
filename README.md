@@ -100,6 +100,7 @@ s.connect(('localhost',8090))
 while True:
     print(s.recv(1024).decode())
     s.send("Acknowledgement Recived".encode
+~~~    
 
 ## output
 <img width="1865" height="1106" alt="479439925-6d62bcbc-fba9-4426-a51a-73c936b9f219" src="https://github.com/user-attachments/assets/c8312b0f-f492-4d5c-b270-4515b0c09785" />
